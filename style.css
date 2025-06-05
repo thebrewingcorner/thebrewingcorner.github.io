@@ -190,6 +190,9 @@ h2 {
   line-height: 1.5;
 }
 
+.profile-secondrow:hover {
+  transform: scale(1.02);
+}
 
 .profile-picture {
   width: 180px;
