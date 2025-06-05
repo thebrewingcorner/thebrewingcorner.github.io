@@ -10,6 +10,7 @@ body {
   background-color: #fffaf5;
   color: #3e2f1c;
   line-height: 1.6;
+  text-align: center; /* Ensures global text centering */
 }
 
 /* Header Styling */
@@ -82,27 +83,17 @@ header {
   object-fit: cover;
 }
 
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+/* Adjusting Text to Always Stay Centered */
+section, h1, h2, h3, h4, h5, p {
+  text-align: center;
 }
 
-.prev:hover, .next:hover {
-  background-color: rgba(250, 204, 153, 0.8);
-}
-
-.dot {
-  height: 12px;
-  width: 12px;
-  margin: 4px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.3s;
-}
-
-.dot.active {
-  background-color: #ba8e5c;
+/* Ensure Centering on All Screens */
+@media (max-width: 800px) {
+  .nav-links, .menu-wrapper {
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 /* Sections */
@@ -152,98 +143,6 @@ h5 {
   padding: 1rem 2rem;
   border-radius: 12px;
   display: inline-block;
-}
-
-/* Profile Grid */
-.all-profiles {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Ensures proper spacing */
-  gap: 3rem; /* More room between cards */
-  max-width: 1200px;
-}
-
-.all-profiles-secondrow {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 3rem;
-  flex-wrap: wrap;
-  max-width: 1000px;
-}
-
-@media (max-width: 800px) {
-  .all-profiles {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px) {
-  .all-profiles-secondrow {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-/* Profile Styling */
-.profile {
-  background-color: #f8f1ea;
-  border-radius: 16px;
-  padding: 2rem 1.5rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  transition: transform 0.3s;
-  max-width: 100%;
-}
-
-.profile:hover, .profile-secondrow:hover {
-  transform: scale(1.02);
-}
-
-.profile h1 {
-  font-size: 1.5rem;
-  color: #6d4f2e;
-  margin-bottom: 1rem;
-}
-
-.profile p {
-  font-size: 1rem;
-  color: #3e2f1c;
-  max-width: 90%;
-  margin: 0 auto;
-  line-height: 1.5;
-}
-
-.profile-picture {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1rem;
-}
-
-.profile-picture-secondrow {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1rem;
-}
-
-/* Responsive profile layout */
-@media (max-width: 980px) {
-  .all-profiles {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px) {
-  .all-profiles {
-    grid-template-columns: 1fr;
-    padding: 0 1rem;
-  }
-
-  .profile {
-    padding: 1rem;
-  }
 }
 
 /* Menu */
