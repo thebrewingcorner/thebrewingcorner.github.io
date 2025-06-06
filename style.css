@@ -190,7 +190,7 @@ h5 {
 
 .all-profiles-secondrow {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   gap: 3rem;
   flex-wrap: wrap;
   max-width: 1000px;
