@@ -191,7 +191,7 @@ h5 {
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   gap: 3rem;
-  max-width: 1200px;
+  max-width: 1800px;
   padding: 2rem;
   margin: auto;
 }
@@ -209,7 +209,7 @@ h5 {
 .profile-secondrow {
   background-color: #f8f1ea;
   border-radius: 16px;
-  padding: 1rem 1.5rem;
+  padding: 0.4rem 1.5rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s;
