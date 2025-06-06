@@ -189,11 +189,13 @@ h5 {
 }
 
 .all-profiles-secondrow {
-  display: flex;
+  display: grid;
   justify-content: center;
   gap: 3rem;
   flex-wrap: wrap;
   max-width: 1000px;
+  padding: 2rem;
+  margin: auto;
 }
 
 .profile {
@@ -242,6 +244,15 @@ h5 {
   object-fit: cover;
   margin-bottom: 1rem;
 }
+
+.profile-picture-secondrow {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
 
 @media (max-width: 800px) {
   .all-profiles {
