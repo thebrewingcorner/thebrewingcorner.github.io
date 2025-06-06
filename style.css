@@ -22,7 +22,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
   width: 100%;
   max-width: 1200px;
   margin: auto;
@@ -273,7 +272,7 @@ h5 {
   /* Changed from grid-template-columns to flex-direction for stacking */
   .all-profiles-secondrow {
     grid-template-columns: 1fr;
-    padding: 0 1rem;
+    padding: 2 2.5rem; /* original: 0 1 */
     margin-top: 15px;
   }
   
