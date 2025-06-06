@@ -254,16 +254,17 @@ h5 {
     grid-template-columns: 1fr;
     padding: 0 1rem;
   }
-
+  
   .profile {
     padding: 1rem;
   }
-
+  
+  /* Changed from grid-template-columns to flex-direction for stacking */
   .all-profiles-secondrow {
-    grid-template-columns: 1fr;
+    flex-direction: column;
     padding: 0 1rem;
   }
-
+  
   .profile-secondrow {
     padding: 1rem;
   }
