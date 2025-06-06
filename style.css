@@ -196,7 +196,6 @@ h5 {
   max-width: 1200px;
   padding: 2rem;
   margin: auto;
-  margin-top: 10px;
 }
 
 .profile {
@@ -275,6 +274,7 @@ h5 {
   .all-profiles-secondrow {
     grid-template-columns: 1fr;
     padding: 0 1rem;
+    margin-top: 10px;
   }
   
   .profile-secondrow {
