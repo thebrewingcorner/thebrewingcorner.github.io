@@ -197,6 +197,8 @@ h5 {
 }
 
 .profile {
+  word-wrap: normal;
+  white-space: nowrap;
   background-color: #f8f1ea;
   border-radius: 16px;
   padding: 2rem 2.5rem;
