@@ -272,7 +272,7 @@ h5 {
   
   /* Changed from grid-template-columns to flex-direction for stacking */
   .all-profiles-secondrow {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     padding: 0 1rem;
   }
   
