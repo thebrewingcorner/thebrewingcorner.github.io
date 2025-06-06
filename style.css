@@ -182,8 +182,7 @@ h5 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
-  max-width: 1200px;
-  margin: auto;
+  max-width: 1800px;
   padding: 2rem;
 }
 
